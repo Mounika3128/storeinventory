@@ -1,0 +1,40 @@
+{
+  "name": "store-inventory-system",
+  "version": "1.0.0",
+  "description": "Simple store inventory management system",
+  "keywords": [
+    "inventory",
+    "store",
+    "mongodb"
+  ],
+  "license": "ISC",
+  "author": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "lucide-react": "^0.454.0",
+    "mongoose": "latest",
+    "next": "16.0.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "nodemon": "^3.0.1",
+    "postcss": "^8.5",
+    "tailwindcss": "4.1.16",
+    "typescript": "^5"
+  }
+}
